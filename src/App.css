@@ -1,0 +1,312 @@
+.App {
+  width: 1440px;
+  height: 900px;
+  background: #FFFFFF;
+  position: relative;
+}
+
+.Groupe84 {
+  position: relative;
+  width: 545.36px;
+  height: 47.18px;
+  left: 216px;
+  top: 307px;
+  width: 545, 36px;
+  Height: 47, 18px;
+}
+
+
+.Rectangledrop {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #EFEFEF;
+  border: 3px solid #EFEFEF;
+  box-sizing: border-box;
+  z-index: 12;
+}
+.Groupe84 >h1{
+  position: absolute;
+  left: 7.73%;
+  right: 35.03%;
+  top: 20%;
+  bottom: 21.82%;
+  z-index: 15;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 54px;
+  /* or 338% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.icondrop{
+position: absolute;
+left: 94.52%;
+
+right: 4.22%;
+top: 43.64%;
+bottom: 27.77%;
+z-index: 15;
+background: url("shape.png");
+height: 8px;
+width: 14px;
+}
+.Rectangledrop >div{
+
+}
+.webeditor {
+  width: 1440px;
+  height: 900px;
+  background: #FFFFFF;
+  position: relative;
+}
+
+.cke_toolgroup>a.cke_button {
+  padding: 2px 2px;
+}
+
+span.cke_top {
+  padding: 6px 0px 2px;
+  height: 51px;
+}
+
+span.cke_combo_text {
+  font-size: 10px;
+  font-weight: bold;
+  width: 35px;
+  padding-left: 7px;
+}
+
+span.cke_button_icon {
+  cursor: inherit;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+  width: 16px;
+  padding: 0;
+  display: inline-block;
+}
+
+#cke_editor1 {
+  top: 317px;
+  width: 545px;
+  position: relative;
+  left: 216px;
+}
+
+span.cke_toolgroup {
+  float: none;
+}
+
+.verify {
+  position: absolute;
+  width: 295px;
+  height: 563px;
+  left: 895px;
+  top: 166px;
+}
+
+.verify>h1 {
+  position: absolute;
+  left: 30.89%;
+  right: 29.67%;
+  top: 13.14%;
+  bottom: 84.08%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #000000;
+  z-index: 12;
+}
+
+.textoutput {
+  position: absolute;
+  left: 9.49%;
+  right: 8.47%;
+  top: 20.07%;
+  bottom: 56.84%;
+  z-index: 12;
+}
+
+.button {
+  position: absolute;
+  left: 15%;
+  right: 75.9%;
+  top: 64.67%;
+  bottom: 30.89%;
+  width: 131px;
+  height: 40px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cadre_button {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #418DCB;
+  border-radius: 3px;
+  Width: 131px;
+  Height: 40px
+}
+
+.button>h1 {
+  position: absolute;
+  height: 24px;
+  left: 16px;
+  right: 42px;
+  margin: 0;
+  top: calc(50% - 24px/2);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.image {
+  position: absolute;
+  width: 324px;
+  height: 633px;
+  left: -14px;
+  top: -36px;
+  background: url(image5.png);
+  z-index: 11;
+}
+
+.rectangle3 {
+  position: absolute;
+  left: 5.42%;
+  right: 5.08%;
+  top: 7.64%;
+  bottom: 10.66%;
+  background: #FFFFFF;
+  border-radius: 27px;
+  z-index: 11;
+}
+
+.rectangle82 {
+  position: absolute;
+  width: 295px;
+  height: 621px;
+  left: 895px;
+  top: 135px;
+  background: #D6ECF8;
+  border-radius: 38px;
+}
+
+.Icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 12px;
+  top: calc(50% - 24px/2);
+}
+
+.Shape_frame {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.shape_form {
+  left: 70.83%;
+  right: -4.16%;
+  top: 20.83%;
+  bottom: 20.83%;
+  background: url(icon.png);
+  width: 24px;
+  height: 24px;
+  /* White */
+}
+
+@media (max-width: 768px) {
+  .webeditor {
+    display: none;
+  }
+  .app {
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    left: 0px;
+    top: 0px;
+    background: #D6ECF8;
+  }
+  .iphone {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    z-index: 8;
+    background: #FFFFFF;
+  }
+  .rectangle3 {
+    position: absolute;
+    left: 5.33%;
+    right: 5.07%;
+    top: 8.5%;
+    bottom: 25.49%;
+    background: #FFFFFF;
+    border-radius: 27px;
+    z-index: 10;
+  }
+  .rectangle82 {
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    left: 0px;
+    top: 0px;
+    z-index: 9;
+    background: #D6ECF8;
+  }
+  .iphone>h1 {
+    position: absolute;
+    left: 30.8%;
+    right: 29.77%;
+    top: 13.34%;
+    bottom: 84.22%;
+    z-index: 11;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+    text-align: center;
+    color: #000000;
+  }
+  .textoutput {
+    /*right: 25.56%;*/
+    position: absolute;
+    left: 9.4%;
+    right: 8.56%;
+    top: 19.43%;
+    bottom: 60.27%;
+  }
+
+  .Groupe84 {
+ display: none;
+  }
+
+  
+}
+
+@media (min-width: 768px) {
+  .iphone {
+    display: none;
+  }
+}
