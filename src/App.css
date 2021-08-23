@@ -24,7 +24,10 @@
   margin: auto;
 }
 
-
+.wysiwyg{
+  border: 3px solid #EFEFEF;
+  box-sizing: border-box;
+}
 
 /*************************/
 
@@ -60,8 +63,10 @@
 }
 
 span.cke_top {
-  padding: 6px 0px 2px;
+  padding: 3px 1px 2px;
   height: 51px;
+  border-bottom: 3px solid #EFEFEF;
+  
 }
 
 span.cke_combo_text {
@@ -75,7 +80,7 @@ span.cke_button_icon {
   cursor: inherit;
   background-repeat: no-repeat;
   margin-top: 1px;
-  width: 16px;
+  width: 15px;
   padding: 0;
   display: inline-block;
 }
@@ -85,11 +90,20 @@ span.cke_button_icon {
   width: 100%;
   max-width: 100%;
   position: relative;
+  border:none;
 }
 
 span.cke_toolgroup {
+  
   float: none;
 }
+.cke_path{
+  display: none;
+}
+span.cke_bottom{
+  display: none;
+}
+
 
 .button {
   min-width: 131px;
@@ -173,7 +187,10 @@ span.cke_toolgroup {
   border-radius: 25px;
   height: 100%;
   overflow-y: auto;
+  overflow-wrap: break-word;
+  
 }
+
 @media only screen and (min-width: 768px) {
   .render {
       height: 80%;

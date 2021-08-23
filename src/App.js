@@ -39,16 +39,17 @@ function App() {
                                             Language: ['en'],
                                             toolbar: [
                                                 ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo', '-', 'Scayt', '-', 'Link', 'Unlink', '-', 'Image', 'HorizontalRule', 'SpecialChar', 'Smiley', '-', 'Source', '-', 'Bold', 'Italic', 'Underline', 'Strike', '-', 'RemoveFormat', '-'],
-                                                ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'Styles', 'Format', 'Font', 'FontSize', 'BGColor', 'TextColor', 'StylesCombo']
+                                                ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'Styles', 'Format', 'Font', 'FontSize', 'BGColor', 'StylesCombo', 'TextColor']
                                             ],
                                             heading: {
                                                 model: 'paragraph', title: 'Paragraph', class: 'ck_heading_paragraph'
                                             },
-                                            width: '545px',
-                                            height: '81px',
-                                            padding: "0px",
-                                            top: "371px",
-                                            left: "217px",
+                                            width: '544px',
+                                            height: '117px',
+                                            margin:"10px"
+                                      
+                                           
+                                            
                                         }
 
                                     }
