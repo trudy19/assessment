@@ -1,57 +1,45 @@
-.Groupe84 {
+.accordion-title {
   position: relative;
   height: 47.18px;
-}
-
-
-.Rectangledrop {
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
   background: #EFEFEF;
   border: 3px solid #EFEFEF;
   box-sizing: border-box;
-  z-index: 12;
-}
-
-.Groupe84 > h1 {
-  position: absolute;
-  left: 7.73%;
-  right: 35.03%;
-  top: 20%;
-  bottom: 21.82%;
-  z-index: 15;
-  font-family: Poppins;
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 54px;
-  /* or 338% */
-
-  display: flex;
   align-items: center;
-
-  color: #000000;
+  display: flex;
+  padding-left: 39.16px;
+  margin-bottom: 17.82px;
 }
+
 
 .icondrop {
   position: absolute;
-  left: 94.52%;
-
   right: 4.22%;
-  top: 43.64%;
-  bottom: 27.77%;
-  z-index: 15;
-  background: url("shape.png");
+  top: 0;
+  bottom: 0;
+  background: url(shape.png) no-repeat ;
   height: 8px;
   width: 14px;
+  margin: auto;
 }
+
 
 
 /*************************/
 
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 18px;
+  margin-top: 0px;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 44px;
+  margin-top: 0px;
+}
 
 .editor-container {
   position: relative;
@@ -63,7 +51,7 @@
   .editor-container {
       width: 545px;
       display: block;
-      padding-top: 20px;
+      padding-top: 63px;
   }
 }
 
@@ -106,7 +94,7 @@ span.cke_toolgroup {
 .button {
   min-width: 131px;
   height: 40px;
-  margin-top: 35px;
+  margin-top: 39px;
   align-items: center;
   cursor: pointer;
   background: #418DCB;
@@ -117,6 +105,8 @@ span.cke_toolgroup {
   display: flex;
   justify-content: space-between;
   padding: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
 }
 .button > span {
   background: url(icon.png) no-repeat center;
@@ -202,7 +192,11 @@ span.cke_toolgroup {
 
 .title-render {
   text-align: center;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .text-render {
+  font-weight: normal;
+  font-size: 12px;
 }

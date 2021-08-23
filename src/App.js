@@ -12,7 +12,10 @@ function App() {
 
         setText(evt.editor.getData())
     }
+    const publishfunc=()=>{
+      localStorage.setItem("article",text)
 
+    }
     return (
         <div className="App">
 
@@ -21,11 +24,9 @@ function App() {
                     <h1 className="title">Customisation</h1>
                     <h2 className="subtitle">The text will reflect mobile view</h2>
                     <div className="editor">
-                        <div className="Groupe84">
-
-                            <div className="Rectangledrop"></div>
-                            <h1>Text</h1>
-                            <div className="icondrop"></div>
+                        <div className="accordion-title">
+                            <span>Text</span>
+                            <span className="icondrop"></span>
                         </div>
                         <div>
                             <div className="wysiwyg">
@@ -53,7 +54,7 @@ function App() {
                                     }
                                 />
                             </div>
-                            <button className="button " onClick={() => setPublish(text)}>
+                            <button className="button " onClick={() => publishfunc()}>
                                 Publish
                                 <span className="Icon"></span>
                             </button>
@@ -66,7 +67,7 @@ function App() {
                     <div className="mobile-content">
                             <div className="render">
                                 <div className="title-render">Text</div>
-                                <div className="text-render" dangerouslySetInnerHTML={{__html: text}}></div>
+                                <div className="text-render" dangerouslySetInnerHTML={{__html: text||localStorage.getItem('article')}}></div>
                             </div>
                     </div>
                 </div>
