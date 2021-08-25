@@ -1,8 +1,10 @@
 
 ### Assessment : Prototype web page based in React js based on the UI mockup
 
+Before running the project just install the dependencies in the local node_modules folder  with this command:
+`npm install`
 
-In the project directory, you can run:
+In order to run the project you should
 `npm start`
 
 
@@ -19,4 +21,4 @@ In the project directory, you can run:
 
 
 3. option :
-when we click on the publish button the article will be saved in localStorage,in order to show the article when refresh the page.
+when we click on the publish button the article will be saved in localStorage,in order to show the article when refreshing the page.

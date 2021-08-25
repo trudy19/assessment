@@ -1,19 +1,15 @@
 import './App.css';
 import CKEditor from 'ckeditor4-react-advanced';
-import {useState} from 'react';
-import {Button} from '@material-ui/core';
-import icon from './icon.png';
-import ArrowForwardIosSharpIcon from '@material-ui/icons/ArrowForwardIosSharp';
+import { useState } from 'react';
 
 function App() {
     const [text, setText] = useState("")
-    const [publish, setPublish] = useState("")
     const onEditorChange = (evt) => {
 
         setText(evt.editor.getData())
     }
-    const publishfunc=()=>{
-      localStorage.setItem("article",text)
+    const publishfunc = () => {
+        localStorage.setItem("article", text)
 
     }
     return (
@@ -46,10 +42,10 @@ function App() {
                                             },
                                             width: '544px',
                                             height: '117px',
-                                            margin:"10px"
-                                      
-                                           
-                                            
+                                            margin: "10px"
+
+
+
                                         }
 
                                     }
@@ -66,10 +62,10 @@ function App() {
                     <div className="mobile-skin"></div>
 
                     <div className="mobile-content">
-                            <div className="render">
-                                <div className="title-render">Text</div>
-                                <div className="text-render" dangerouslySetInnerHTML={{__html: text||localStorage.getItem('article')}}></div>
-                            </div>
+                        <div className="render">
+                            <div className="title-render">Text</div>
+                            <div className="text-render" dangerouslySetInnerHTML={{ __html: text || localStorage.getItem('article') }}></div>
+                        </div>
                     </div>
                 </div>
             </div>
