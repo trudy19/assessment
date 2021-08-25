@@ -1,10 +1,10 @@
 
-### Assessment : Prototype web page based in React js based on the UI mockup
+### Assessment : Prototype web page in React js based on the UI mockup
 
-Before running the project just install the dependencies in the local node_modules folder  with this command:
-`npm install`
+Before running the project just install the dependencies in the local node_modules folder  with this command :
+`npm install`                    
 
-In order to run the project you should
+In order to run the project you should use :
 `npm start`
 
 
